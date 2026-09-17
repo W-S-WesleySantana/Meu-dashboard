@@ -1,5 +1,21 @@
 import styled from "styled-components";
 
+export const Badge = styled.span`
+position: absolute;
+top: 4px;
+right: 4px;
+background-color: #ef4444;
+color: #fff;
+font-size: 0.7rem;
+font-weight: bold;
+border-radius: 50%;
+width: 18px;
+height: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+`
+
 export const Container = styled.header` 
 height: 64px;
 border-bottom: 1px solid #e2e8f0;

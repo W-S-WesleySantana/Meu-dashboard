@@ -11,8 +11,9 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Cantarell, sans-serif;
-    background-color: #f8fafc;
-    color: #1e293b;
+    background-color: ${props => props.theme.bgPrimary};
+    color: ${props => props.theme.textPrimary};
+    transition: background-color 0.3s, color 0.3s;
     -webkit-font-smoothing:antialiased;
 
 }
